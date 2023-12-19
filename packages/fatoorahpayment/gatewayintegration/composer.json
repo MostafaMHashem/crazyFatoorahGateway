@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fatoorahpayment\\Gatewayintegration\\": "packages/fatoorahpayment/gatewayintegration/src/"
+            "Fatoorahpayment\\Gatewayintegration\\": "src/"
         }
     },
     "authors": [

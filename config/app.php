@@ -1,5 +1,6 @@
 <?php
 
+use Fatoorahpayment\Gatewayintegration\GatewayintegrationServiceProvider;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
@@ -161,6 +162,7 @@ return [
         /*
          * Package Service Providers...
          */
+        GatewayintegrationServiceProvider::class,
 
         /*
          * Application Service Providers...

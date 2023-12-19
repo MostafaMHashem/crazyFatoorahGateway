@@ -16,7 +16,7 @@ class ComposerStaticInit8ba22f55ad3ab17947f9c5a9be4af91a
     public static $prefixDirsPsr4 = array (
         'Fatoorahpayment\\Gatewayintegration\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/packages/fatoorahpayment/gatewayintegration/src',
         ),
     );
 

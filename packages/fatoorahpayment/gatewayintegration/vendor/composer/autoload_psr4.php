@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Fatoorahpayment\\Gatewayintegration\\' => array($baseDir . '/src'),
+    'Fatoorahpayment\\Gatewayintegration\\' => array($baseDir . '/packages/fatoorahpayment/gatewayintegration/src'),
 );
