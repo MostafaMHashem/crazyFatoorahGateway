@@ -20,8 +20,10 @@ class GatewayintegrationServiceProvider  extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
         $this->loadRoutesFrom(__DIR__ . '/routes/api.php');
 
-        // MyVendor\contactform\src\ContactFormServiceProvider.php
+        // Fatoorahpayment\Gatewayintegration\src\GatewayintegrationServiceProvider.php
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'Gatewayintegration');
+        // Fatoorahpayment\Gatewayintegration\src\GatewayintegrationServiceProvider.php
+        $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
     }
 
     public function register()

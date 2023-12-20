@@ -10,10 +10,17 @@
     },
     "authors": [
         {
-            "name": "crazy idea company",
+            "name": "crazy-idea-company",
             "email": "crazyideacompany@gmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fatoorahpayment\\Gatewayintegration\\GatewayintegrationServiceProvider"
+            ]
+        }
+    }
 }
